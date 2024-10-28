@@ -1,3 +1,8 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
 body {
     background: url('img/bg-desktop.webp');
     font-family: Bai Jamjuree;
@@ -56,11 +61,7 @@ footer p{
     font-size: 1vw;
     backface-visibility: hidden;
 }
-:root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
-}
+
 .cartao__conteudo__resposta p{
     color: var(--card-back-color);
     font-weight: 700;
@@ -78,5 +79,13 @@ footer p{
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
-
+button:hover {
+background-color: pink;
+  }
+div {
+ transform: rotate(45deg);
+  }
+button {
+    transition: background-color 0.3s ease;
+  }
 
